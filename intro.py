@@ -1,5 +1,7 @@
 nome=input()
 CNH=input()
 Tipo_de_automovel=input()
-if Tipo_de_automovel!='carro' and 'moto'!=Tipo_de_automovel:
-    print("erro")
+while Tipo_de_automovel!="carro" and Tipo_de_automovel!="moto":
+    print('erro')
+    Tipo_de_automovel=input()
+print(nome,CNH,Tipo_de_automovel)
